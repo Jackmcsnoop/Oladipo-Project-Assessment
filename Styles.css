@@ -20,6 +20,8 @@ body{
 header{
     background-color: #4D4B59;
     display: flex;
+    position: sticky;
+    top: 0px;
     align-items: center;
     justify-content:space-between;
     color: white;
