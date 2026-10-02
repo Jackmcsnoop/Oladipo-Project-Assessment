@@ -2,38 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechZone Electronics | About Us</title>
-    <link rel="stylesheet" href="Styles.css">
-    <link rel="icon" href="Images/Logo.png">
+    <title>TechZone | Home</title>
+    <link rel="icon" href="Images/TechZone Logo Colour.png">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="Images/Logo.png">
-        <h1>About Us</h1>
+        <div class="logoContainer">
+            <img src="Images/Logo.png">
+            <h1>TechZone</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="products.html">Products</a></li>
+                <li>|</li>
+                <li><a href="promotions.html">Promotions</a></li>
+                <li>|</li>
+                <li><a href="about.html">About</a></li>
+                <li>|</li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html" class="nav-button">Home</a></li>
-            <li><a href="products.html" class="nav-button">Products</a></li>
-            <li><a href="promotions.html" class="nav-button">Promotions</a></li>
-            <li><a href="about.html" class="nav-button-active">About us</a></li>
-        </ul>
-    </nav>
     <main>
-        
+        <div class="heroSection">
+            <img src="Images/Hero Image.png" width="100%">
+        </div>
+        <div class="brandBannerSection"></div>
+        <div class="slogan">Dream Big. Buy Bigger</div>
+        <div class="compIntro">Here at TechZone Electronices, our mission is to only sell the <b>Highest Quality</b> products from the <b>Highest Quality</b> brands, at the <b>Highest Quality</b> prices to the <b>Highest Quality</b> customers!</b></div>
+        <div class="shopNowButton">
+            <button>Shop Now!</button>
+        </div>
+        <div class="featuredProducts"></div>
+        <div class="specialPromotion"></div>
     </main>
     <footer>
-        <p> &copy TechZone Electronics   </p>
-        <p>|</p>
-        <p>
-            <a href="contacts.html">Contact</a>
-        </p>
+        <div class="navgrid">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a>Products</a></li>
+                <li><a>Promotions</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+        <p id="copy">&copyTechZone Electronics</p>  
     </footer>
 </body>
-<script src="Scripts.js"></script>
 </html>
