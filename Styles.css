@@ -1,13 +1,4 @@
-/*nav{
-    display: flex;
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    height: 80px;
-    border-bottom: 2px black solid;
-    background-color: rgb(70, 133, 170);
-    z-index: 1000;
-}*/
+
 body{
     margin:0;
     padding:0;
@@ -57,7 +48,9 @@ nav{
     margin-right: 60px;
     font-size: 36px;
 }
- 
+nav ul li :hover {
+    color: rgb(0, 0, 0);
+}
 header img{
     height: 90px;
     padding:15px;
@@ -114,4 +107,47 @@ footer{
 #copy{
     margin-top: 8px;
     margin-bottom: 8px;
+}
+.nav-button-active{
+    color: black;
+}
+.Info_1,
+.Info_2,
+.Info_3,
+.Info_4,
+.Info_4,
+.Info_5,
+.Info_6,
+.Info_7,
+.Info_8,
+.Info_9{
+
+    
+
+    width: 80%;;
+
+    margin: 0 auto;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    background-color: #ffffff;
+
+    color: black;
+ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    border-radius: 15px;
+
+    border: #4D4B59 5px solid;
+
+    grid-area: auto;
+
+    
+ 
+}
+.Centraliser{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
