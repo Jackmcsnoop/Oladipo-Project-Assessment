@@ -187,3 +187,91 @@ fieldset form {
 }
 
 
+body{
+    margin:0;
+    padding:0;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color:black;
+}
+header{
+    background-color: #4D4B59;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    justify-content:space-between;
+    color: white;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+b{
+    color:#0099FD
+}
+ 
+.logoContainer{
+    display:flex;
+    align-items: center;
+    margin-left: 60px;
+}
+nav ul li :hover {
+    color: rgb(0, 0, 0);
+}
+header img{
+    height: 90px;
+    padding:15px;
+}
+
+.nav-button-active{
+    color: black;
+}
+.Info_1,
+.Info_2,
+.Info_3,
+.Info_4,
+.Info_4,
+.Info_5,
+.Info_6,
+.Info_7,
+.Info_8,
+.Info_9{
+
+    
+
+    width: 80%;;
+
+    margin: 0 auto;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    background-color: #ffffff;
+
+    color: black;
+ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    border-radius: 15px;
+
+    border: #4D4B59 5px solid;
+
+    grid-area: auto;
+
+    
+ 
+}
+.Centraliser{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
