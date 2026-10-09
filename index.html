@@ -35,11 +35,28 @@
             <img src="Images/Hero_Banner.png" width="100%">
         </div>
         <div class="brandBannerSection"></div>
-        <div class="slogan">Dream Big. Buy Bigger</div>
-        <div class="compIntro">Here at TechZone Electronices, our mission is to only sell the <b>Highest Quality</b> products from the <b>Highest Quality</b> brands, at the <b>Highest Quality</b> prices to the <b>Highest Quality</b> customers!</b></div>
+        <br>
+        <h2 class="slogan">Dream Big. Buy Bigger</h2>
+        <br>
+        <div class="compIntro">Here at TechZone Electronices, our mission is to only sell the <b>Highest Quality</b> products from the <b>Highest Quality</b> brands, at the <b>Highest Quality</b> prices to the <b>Highest Quality</b> customers!</b><br>TechZone Electronics sells:
+ 
+            Laptops and desktop computers
+           
+            Smartphones and tablets
+           
+            Computer accessories
+           
+            Gaming equipment
+           
+            Printers and other electronic devices </div>
+        <br>
+        
         <div class="shopNowButton">
-            <button>Shop Now!</button>
+            <button onclick="window.location.href='products.html'">
+                Shop Now!
+            </button>
         </div>
+        <br>
     </main>
     <footer>
         <div class="navgrid">
@@ -51,7 +68,13 @@
                 <li><a href="promotions.html">About</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
             </ul>
-        </div> 
+        </div>
     </footer>
 </body>
+<script>
+    var shopNowButton = document.querySelector("shopNowButton");
+    shopNowButton.addEventListener("click", () => {
+        window.location.assign("products.html");
+    });
+</script>
 </html>
