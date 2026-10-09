@@ -33,6 +33,7 @@ header{
 main{
     width: 100%;
     min-height: 100vh;
+    text-align: center;
 }
 .promo-banner{
     background-image: url("Images/Promo-Banner.png");
@@ -61,10 +62,6 @@ nav{
 header img{
     height: 90px;
     padding:15px;
-}
- 
-main{
-    text-align: center;
 }
  
 nav ul{
@@ -212,11 +209,6 @@ header{
     font-style: normal;
     font-size: 28px;
 }
-main{
-    width: 100%;
-    min-height: 100vh;
-}
-
 b{
     color:#6dc8ff
 }
@@ -237,20 +229,11 @@ header img{
 .nav-button-active{
     color: #6dc8ff;
 }
-.Info_1,
-.Info_2,
-.Info_3,
-.Info_4,
-.Info_4,
-.Info_5,
-.Info_6,
-.Info_7,
-.Info_8,
-.Info_9{
+.Info{
 
     
 
-    width: 80%;;
+    width: 90%;;
 
     margin: 0 auto;
 
@@ -268,15 +251,14 @@ header img{
 
     border: #4D4B59 5px solid;
 
-    grid-area: auto;
-
-    
+    display: none;
+        
+    overflow: hidden;
+   
  
 }
-.Centraliser{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
+
 
 .shopNowButton button {
     background-color: #6dc8ff;
@@ -299,3 +281,10 @@ header img{
     box-shadow: 0 0 0 3px rgba(0, 153, 253, 0.5);
 }
  
+.accordian{
+    width: 95%;
+    height: 70px;  
+    border-radius: 18em;
+    margin: 10px;
+    cursor: pointer;
+}
