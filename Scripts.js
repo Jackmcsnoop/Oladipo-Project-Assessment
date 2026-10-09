@@ -17,12 +17,7 @@ function Search(){
     });
 }
 
-var shopNowButton = document.getElementById("shopNowButton1");
+var shopNowButton = document.getElementsByClassName("shopNowButton");
     shopNowButton.addEventListener("click", () => {
-        window.location.href="./products.html";
+        window.location.assign("products.html");
     });
-    var shopNowButton = document.getElementById("shopNowButton2");
-    shopNowButton.addEventListener("click", () => {
-        window.location.href="./products.html";
-    });
-
