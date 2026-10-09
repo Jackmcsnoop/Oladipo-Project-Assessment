@@ -17,3 +17,12 @@ function Search(){
     });
 }
 
+var shopNowButton = document.getElementById("shopNowButton1");
+    shopNowButton.addEventListener("click", () => {
+        window.location.href="./products.html";
+    });
+    var shopNowButton = document.getElementById("shopNowButton2");
+    shopNowButton.addEventListener("click", () => {
+        window.location.href="./products.html";
+    });
+
