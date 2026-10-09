@@ -1,13 +1,4 @@
-/*nav{
-    display: flex;
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    height: 80px;
-    border-bottom: 2px black solid;
-    background-color: rgb(70, 133, 170);
-    z-index: 1000;
-}*/
+
 body{
     margin:0;
     padding:0;
@@ -36,7 +27,7 @@ main{
 }
 .promo-banner{
     background-image: url("Images/Promo-Banner.png");
-    height: 68vh;
+    height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +48,9 @@ nav{
     margin-right: 60px;
     font-size: 36px;
 }
- 
+nav ul li :hover {
+    color: rgb(0, 0, 0);
+}
 header img{
     height: 90px;
     padding:15px;
@@ -86,7 +79,7 @@ nav ul li a{
 footer{
     display: flex;
     position: relative;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     background: #4D4B59;
     color: white;
@@ -115,75 +108,46 @@ footer{
     margin-top: 8px;
     margin-bottom: 8px;
 }
-
-fieldset{
-    margin-top: 150px;
-    border-radius: 15px;
-    width: fit-content;
-    height: fit-content;
-}
-fieldset form {
-    margin: 15px;
-}
-#contactsMain{
-    display: flex;
-    flex: 1;
-    justify-content: center;
-}
-#email{
-    width: 70%;
-}
-
-.products{
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
-}
-.products img{
-    width: 150px;
-    height: auto;
-}
-.product{
-    width: 80%;
-    height: fit-content;
-    background-color: white;
+.nav-button-active{
     color: black;
 }
-.searchbar {
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 35px;
-    flex-shrink: 0;
+.Info_1,
+.Info_2,
+.Info_3,
+.Info_4,
+.Info_4,
+.Info_5,
+.Info_6,
+.Info_7,
+.Info_8,
+.Info_9{
+
+    
+
+    width: 80%;;
+
+    margin: 0 auto;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    background-color: #ffffff;
+
+    color: black;
+ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    border-radius: 15px;
+
+    border: #4D4B59 5px solid;
+
+    grid-area: auto;
+
+    
+ 
 }
-
-#data {
-    flex: 1;
-    min-width: 0;
-    height: 35px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 5px;
-    font-size: 1rem;
+.Centraliser{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-
-#searchButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 35px;
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
-}
-
-#searchButton img {
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    margin: 0;
-    object-fit: contain;
-}
-
-
