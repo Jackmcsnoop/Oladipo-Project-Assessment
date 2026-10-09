@@ -138,16 +138,19 @@ fieldset form {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+    
 }
 .products img{
     width: 150px;
     height: auto;
+    padding: 5px;
 }
 .product{
     width: 80%;
     height: fit-content;
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
+    border-radius: 1.8em;
 }
 .searchbar {
     display: flex;
@@ -215,7 +218,7 @@ main{
 }
 
 b{
-    color:#0099FD
+    color:#6dc8ff
 }
  
 .logoContainer{
@@ -224,7 +227,7 @@ b{
     margin-left: 60px;
 }
 nav ul li :hover {
-    color: rgb(0, 0, 0);
+    color: #6dc8ff
 }
 header img{
     height: 90px;
@@ -232,7 +235,7 @@ header img{
 }
 
 .nav-button-active{
-    color: black;
+    color: #6dc8ff;
 }
 .Info_1,
 .Info_2,
@@ -275,3 +278,24 @@ header img{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.shopNowButton button {
+    background-color: #6dc8ff;
+    color: #ffffff;            
+    border: none;              
+    border-radius: 100px;      
+    padding: 10px 20px;        
+    font-size: 16px;            
+    cursor: pointer;            
+    outline: none;              
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+ 
+.shopNowButton button:hover {
+    background-color: #007ACC;  
+    transform: scale(1.05);      
+}
+ 
+.shopNowButton button:focus {
+    box-shadow: 0 0 0 3px rgba(0, 153, 253, 0.5);
+}
+ 
