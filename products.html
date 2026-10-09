@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechZone | Products</title>
+    <title>TechZone | Home</title>
     <link rel="icon" href="Images/TechZone Logo Colour.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,13 +14,17 @@
     <header>
         <div class="logoContainer">
             <img src="Images/Logo.png">
-            <h1> Techzone</h1>
+            <h1>Products</h1>
+        </div>
+        <div class="searchbar">
+            <input type="text" id="data" placeholder="Search">
+            <button type="button" onclick="Search()" id="searchButton"><img src="Images/Magnifying-glass.png" alt="A Magnifying-glass"></button>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li>|</li>
-                <li><a href="products.html" class="nav-button-active">Products</a></li>
+                <li><a href="products.html">Products</a></li>
                 <li>|</li>
                 <li><a href="promotions.html">Promotions</a></li>
                 <li>|</li>
@@ -31,7 +35,39 @@
         </nav>
     </header>
     <main>
-
+        <div class="products">
+            <br>
+            <div class="product">
+                <img src="images/PC1.png" alt="PC1">
+                <p>Name:Recon R80</p>
+                <p>Price:£3299 inc.VAT</p>
+            </div>
+            <br>
+            <div class="product">
+                <img src="images/PC2.png" alt="PC2">
+                <p>Name:HP Omnidesk</p>
+                <p>Price:£799 inc.VAT</p>
+            </div>
+            <br>
+            <div class="product">
+                <img src="Images/PC3.png" alt="PC3">
+                <p>Name:Hall Of Fame white</p>
+                <p>Price:£7499 inc.VAT</p>
+            </div>
+            <br>
+            <div class="product">
+                <img src="Images/PC4.png" alt="PC4">
+                <p>Name:Ionz PC White</p>
+                <p>Price:£1682 inc.VAT</p>
+            </div>
+            <br>
+            <div class="product">
+                <img src="Images/PC5.png" alt="PC5">
+                <p>Name:BHE PC Black</p>
+                <p>Price:£589 inc.VAT</p>
+            </div>
+        </div>
+        <br>
     </main>
     <footer>
         <div class="navgrid">
@@ -46,4 +82,5 @@
         </div> 
     </footer>
 </body>
+<script src="Scripts.js" defer></script>
 </html>
