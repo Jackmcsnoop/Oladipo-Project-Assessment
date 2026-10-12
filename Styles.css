@@ -287,7 +287,7 @@ header img{
 }
 .productInfo{
     margin: 40px;
-    width: 850px;
+    width: 63%;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -295,7 +295,7 @@ header img{
 .productShop{
     display: flex;
     flex-direction: column;
-    margin: 80px;
+    margin: 60px;
     margin-bottom: 50px;
 }
 .products{
@@ -313,3 +313,31 @@ header img{
     color: rgb(0, 0, 0);
     border-radius: 1.8em;
 }
+.additionalInfoContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    width: 90%;
+    height: fit-content;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+ 
+.additionalInfoContainer img{
+    width:800px;
+    border-radius: 20px;
+
+}
+ 
+.additionalInfoContainer p{
+    font-size:18px;
+    color: black;
+}
+ 
+ 
+.slogan{
+    font-size: xxx-large;
+}
+ 
