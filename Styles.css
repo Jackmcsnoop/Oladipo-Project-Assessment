@@ -143,21 +143,26 @@ fieldset form {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: none;
+    outline: none;
     width: 40px;
     height: 35px;
     flex-shrink: 0;
     margin: 0;
     padding: 0;
+    background-image: url("Images/Magnifying\ Glass\ White.svg");
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
-
-#searchButton img {
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    margin: 0;
-    object-fit: contain;
+ 
+#searchButton:hover{
+    background-image: url("Images/Magnifying\ Glass\ Blue.svg");
 }
-
 
 body{
     margin:0;
