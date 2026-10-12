@@ -121,25 +121,6 @@ fieldset form {
 #email{
     width: 70%;
 }
-
-.products{
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
-    
-}
-.products img{
-    width: 150px;
-    height: auto;
-    padding: 5px;
-}
-.product{
-    width: 80%;
-    height: fit-content;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    border-radius: 1.8em;
-}
 .searchbar {
     display: flex;
     align-items: center;
@@ -278,4 +259,50 @@ header img{
     border-radius: 18em;
     margin: 10px;
     cursor: pointer;
+}
+.product img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.productName{
+    margin-top: 10px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+.productDescript{
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+.productInfo{
+    margin: 40px;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.productShop{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    margin-bottom: 50px;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+   
+}
+.product{
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    height: fit-content;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 1.8em;
 }
