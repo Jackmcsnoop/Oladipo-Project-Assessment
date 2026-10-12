@@ -30,4 +30,15 @@ var shopNowButton = document.getElementsByClassName("shopNowButton");
         window.location.assign("products.html");
     });
 
-    
+var accord = document.getElementsByClassName('accordian');
+    for(let i=0;i<accord.length;i++){
+        accord[i].addEventListener('click',function(){
+            this.classList.toggle('active');
+            var Info=this.nextElementSibling;
+            if(Info.style.display==='block'){
+                Info.style.display='none';
+            }else{
+                Info.style.display='block';
+            }
+        })
+    }    
