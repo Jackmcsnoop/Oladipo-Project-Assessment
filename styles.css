@@ -271,30 +271,67 @@ nav ul li :hover {
     color: rgb(0, 0, 0);
     border-radius: 1.8em;
 }
-/*Sets the hompages informations width spacing and color giving it rounded edges*/
 .additionalInfoContainer {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    background-color: #ffffff;
-    margin-top: 20px;
+    background-color: white;
+    margin: 20px auto;
     width: 90%;
-    height: fit-content;
     border-radius: 20px;
-    margin-left: 5%;
-}
-/*Sets the hompage information images sizing*/
-.additionalInfoContainer img{
-    width:800px;
-    border-radius: 20px;
-
-}
-/*Sets the hompage information font and color*/
-.additionalInfoContainer p{
-    font-size:18px;
+    overflow: auto;
     color: black;
+}
+
+/* Makes the text flow around the image */
+.additionalInfoContainer img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+/* Allows the text to fill the space underneath */
+.additionalInfoContainer p {
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    margin: 15px;
+    line-height: 1.4;
 }
 /*Sets the font size of the slogan*/
 .slogan{
     font-size: 4rem;
+}
+@media (max-width: 1650px) {
+    .searchBar{
+        width: 20%;
+    }
+}
+@media (max-width: 1600px) {
+    header {
+        position: sticky;
+        top: 0;
+        flex-wrap: nowrap;
+    }
+
+    .searchbar {
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        max-width: 350px;
+        margin: 10px 0;
+        z-index: 10;
+    }
+}
+@media (max-width: 1400px) {
+    .logoContainer{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1100px) {
+    .logoContainer h1{
+        display: none;
+    }
 }
