@@ -1,4 +1,4 @@
-
+/*Body is styled to remove white space set the font and the color scheme for the website*/
 body{
     margin:0;
     padding:0;
@@ -8,6 +8,7 @@ body{
     color: white;
     background-color:black;
 }
+/*Header is styled to always be shown at the top of the screen and to position the elements within the header*/
 header{
     background-color: #4D4B59;
     display: flex;
@@ -21,11 +22,13 @@ header{
     font-style: normal;
     font-size: 28px;
 }
+/*Main is styled to cover the entire screen with a percentage width and a minimum height all text is placed at the horizontal center of the screen*/
 main{
     width: 100%;
     min-height: 100vh;
     text-align: center;
 }
+/*The class promo-banner is styled to have its background as an image*/
 .promo-banner{
     background-image: url("Images/Promo-Banner.png");
     height: 68vh;
@@ -34,27 +37,28 @@ main{
     background-size: cover;
     background-position: center;
 }
+/*B is styled to set the font color to blue when used*/
 b{
-    color:#0099FD
+    color:#6dc8ff
 }
- 
+/*The class logoContainer is styled to hold the logo and logo text at the left side of the screen*/
 .logoContainer{
     display:flex;
     align-items: center;
     margin-left: 60px;
 }
- 
+/*Nav is styled to hold the navingation bar to the right side of the screen and set the font size*/
 nav{
     align-items: center;
     margin-right: 60px;
     font-size: 36px;
 }
- 
+/*Images within the header are styled to a specific size with a small amount of white space arround*/
 header img{
     height: 90px;
     padding:15px;
 }
- 
+/*The list within the nav is styled to have no bullet points 15 pixel spacing and align side by side*/
 nav ul{
     display: flex;
     flex-direction: row;
@@ -65,12 +69,12 @@ nav ul{
     padding-left: 0px;
     gap: 15px;
 }
- 
+/*The links are styled to have no underline*/
 nav ul li a{
     text-decoration: none;
     color: white;
 }
- 
+/*The footer is styled to have all items aligned in the centre and to allways appear at the bottom of the webpage*/
 footer{
     display: flex;
     position: relative;
@@ -83,7 +87,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
- 
+/*The navgrid is within the footer it is styled so that the footer is aligned into 3 vertical sections*/
 .navgrid ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -94,33 +98,32 @@ footer{
     width: 500px;
     margin: 15px auto;
 }
- 
+/*Sets the navgrids font color*/
 .navgrid ul li a{
     color: white;
 }
- 
-#copy{
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
+/*Set the position and sizing of the form*/
 fieldset{
     margin-top: 150px;
     border-radius: 15px;
     width: fit-content;
     height: fit-content;
 }
+/*Gives the form more space*/
 fieldset form {
     margin: 15px;
 }
+/*Sets the contacts page main contacts to flex positioning and aligns it horizontaly*/
 #contactsMain{
     display: flex;
     flex: 1;
     justify-content: center;
 }
+/*Sets the width of the email section of the form*/
 #email{
     width: 70%;
 }
+/*Sets the searchbars display to flex centers it verticaly while setting the width and height*/
 .searchbar {
     display: flex;
     align-items: center;
@@ -128,7 +131,7 @@ fieldset form {
     height: 35px;
     flex-shrink: 0;
 }
-
+/*Sets the Searchbar to have spherical edges while setting the font*/
 #data {
     flex: 1;
     min-width: 0;
@@ -140,7 +143,7 @@ fieldset form {
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
 }
-
+/*Sets the search button to align in both directions set the height and width it then sets the background image and curves the edges*/
 #searchButton {
     display: flex;
     align-items: center;
@@ -161,84 +164,33 @@ fieldset form {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
 }
- 
+/*Sets the search button to highlight blue while hovering over the button*/
 #searchButton:hover{
     background-image: url("Images/Magnifying\ Glass\ Blue.svg");
 }
-
-body{
-    margin:0;
-    padding:0;
-    font-family: "Share Tech", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    background-color:black;
-}
-header{
-    background-color: #4D4B59;
-    display: flex;
-    position: sticky;
-    top: 0px;
-    align-items: center;
-    justify-content:space-between;
-    color: white;
-    font-family: "Share Tech", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 28px;
-}
-b{
-    color:#6dc8ff
-}
- 
-.logoContainer{
-    display:flex;
-    align-items: center;
-    margin-left: 60px;
-}
+/*Sets the color of the hyperlink while hovering it*/
 nav ul li :hover {
     color: #6dc8ff
 }
-header img{
-    height: 90px;
-    padding:15px;
-}
-
+/*Sets the color of the nav button of the page you are on*/
 .nav-button-active{
     color: #6dc8ff;
 }
+/*Sets the acordian size and colors and */
 .Info{
-
-    
-
     width: 90%;;
-
     margin: 0 auto;
-
     margin-top: 10px;
-
     margin-bottom: 10px;
-
     background-color: #ffffff;
-
     color: black;
- 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
     border-radius: 15px;
-
     border: #4D4B59 5px solid;
-
-    display: none;
-        
+    display: none;  
     overflow: hidden;
-   
- 
 }
-
-
-
+/*Styles the shop buttons colour font and rounded edges it sets the cursor to pointer while hovering and gives it a transition*/
 .shopNowButton button {
     background-color: #6dc8ff;
     color: #ffffff;            
@@ -248,18 +200,18 @@ header img{
     font-size: 16px;            
     cursor: pointer;            
     outline: none;              
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: 0.3s ease;
 }
- 
+/*While hovering the shop button the background colour changes and the isze is increased by 5 percent to show you are hovering*/
 .shopNowButton button:hover {
     background-color: #007ACC;  
     transform: scale(1.05);      
 }
- 
+/*When you click on the button the outline is dark blue*/
 .shopNowButton button:focus {
     box-shadow: 0 0 0 3px rgba(0, 153, 253, 0.5);
 }
- 
+/*This sets the width and height of the accordions button making the cursor change to a pointer when hovering*/
 .accordian{
     width: 95%;
     height: 70px;  
@@ -267,24 +219,27 @@ header img{
     margin: 10px;
     cursor: pointer;
 }
+/*Sets the product images width and height giving them rounded edges and a border*/
 .product img{
     width: 250px;
     height: 250px;
     border-radius: 20px;
     border: 1px solid black;
 }
-
+/*Sets the product names positioning and font sizing*/
 .productName{
     margin-top: 10px;
     flex-shrink: 0;
     text-align: center;
     font-size: 2rem;
 }
+/*Sets the products descriptions position*/
 .productDescript{
     margin: 0;
     flex: 1;
     text-align: center;
 }
+/*Sets the product informations size and sets the information to stack verticaly*/
 .productInfo{
     margin: 40px;
     width: 63%;
@@ -292,18 +247,21 @@ header img{
     flex-direction: column;
     margin-bottom: 10px;
 }
+/*Sets the product price and shop buttons positioning*/
 .productShop{
     display: flex;
     flex-direction: column;
     margin: 60px;
     margin-bottom: 50px;
 }
+/*Sets the positioning of all products */
 .products{
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
    
 }
+/*Sets each products width height and color giving them rounded edges*/
 .product{
     display: flex;
     align-items: flex-start;
@@ -313,6 +271,7 @@ header img{
     color: rgb(0, 0, 0);
     border-radius: 1.8em;
 }
+/*Sets the hompages informations width spacing and color giving it rounded edges*/
 .additionalInfoContainer {
     display: flex;
     flex-direction: row;
@@ -324,20 +283,18 @@ header img{
     border-radius: 20px;
     margin-left: 5%;
 }
- 
+/*Sets the hompage information images sizing*/
 .additionalInfoContainer img{
     width:800px;
     border-radius: 20px;
 
 }
- 
+/*Sets the hompage information font and color*/
 .additionalInfoContainer p{
     font-size:18px;
     color: black;
 }
- 
- 
+/*Sets the font size of the slogan*/
 .slogan{
-    font-size: xxx-large;
+    font-size: 4rem;
 }
- 
