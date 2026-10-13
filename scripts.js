@@ -32,9 +32,3 @@ document.getElementById("data").addEventListener("keydown", function(event) {
         Search()
     }
     });
-
-//The following code uses javascript to create a hyperlink (Styled as a button) that takes you to the product page 
-var shopNowButton = document.getElementsByClassName("shopNowButton");
-    shopNowButton.addEventListener("click", () => {
-        window.location.assign("products.html");
-    });
